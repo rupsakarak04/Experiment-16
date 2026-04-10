@@ -11,11 +11,15 @@ Natural Language Processing (NLP) is a branch of artificial intelligence that fo
 - Punctuation Removal: Removing symbols like commas and periods helps focus on the actual words.
 
 2. Tokenization: Tokenization is the process of breaking a stream of text into smaller units called tokens. These tokens can be words, characters, or sub-words. Word tokenization is the most common form, where a sentence is split into individual words.
+   
 a. word_tokenize() → Splits sentence into words
+
 b. sent_tokenize() → Splits paragraph into sentences
 
 4. Stopword Removal: Stopwords are commonly used words in a language (e.g., "is", "the", "at", "which") that carry little unique information. Removing them reduces the size of the dataset and allows the analysis to focus on the meaningful keywords.
+
 a. stopwords.words('english') → List of common words
+
 b. set() → Faster lookup
 
 6. Stemming and Lemmatization
@@ -23,15 +27,20 @@ b. set() → Faster lookup
 Both techniques are used to reduce a word to its root form:
 
 - Stemming: A rule-based process that chops off the ends of words (e.g., "running" becomes "run"). It is fast but can sometimes result in non-dictionary words.
-  a. PorterStemmer() → Algorithm for stemming
-  b.stem(word) → Returns root form
+
+   a. PorterStemmer() → Algorithm for stemming
+
+   b.stem(word) → Returns root form
   
 - Lemmatization: Uses a dictionary and morphological analysis to return the base or dictionary form of a word, known as a lemma (e.g., "better" becomes "good").
-     a.WordNetLemmatizer() → Uses dictionary-based approach 
-     b.lemmatize() → Returns meaningful base word
+
+    a.WordNetLemmatizer() → Uses dictionary-based approach 
+
+    b.lemmatize() → Returns meaningful base word
 
 5. Part-of-Speech (POS) Tagging: POS tagging assigns grammatical labels such as noun, verb, adjective to each word.
-   a. pos_tag() → Assigns grammar tags
+
+    a. pos_tag() → Assigns grammar tags
 
    NN → Noun
    VB → Verb
@@ -39,7 +48,9 @@ Both techniques are used to reduce a word to its root form:
    
 
 7. Frequency Distribution: It counts how often each word appears in the text.
-   a.FreqDist() → Calculates frequency
+
+    a.FreqDist() → Calculates frequency
+
    b.most_common() → Displays words with counts
 
 _Importing Libraries & Downloading Resources_
