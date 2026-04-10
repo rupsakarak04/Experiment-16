@@ -54,10 +54,15 @@ Both techniques are used to reduce a word to its root form:
    b.most_common() → Displays words with counts
 
 _Importing Libraries & Downloading Resources_
+
 import nltk → Imports NLP library
+
 nltk.download() → Downloads required datasets:
+
 punkt → for tokenization
+
 stopwords → for filtering common words
+
 wordnet → for lemmatization
 
 **Conclusion**
