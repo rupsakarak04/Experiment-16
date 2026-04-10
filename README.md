@@ -26,30 +26,6 @@ Both techniques are used to reduce a word to its root form:
 - Stemming: A rule-based process that chops off the ends of words (e.g., "running" becomes "run"). It is fast but can sometimes result in non-dictionary words.
 - Lemmatization: Uses a dictionary and morphological analysis to return the base or dictionary form of a word, known as a lemma (e.g., "better" becomes "good").
 
-**NLP Operations in the Lab**
-Based on the implemented code in the notebook, the following NLP tasks were performed:
-
-1. Data Cleaning
-
-The text was standardized by converting all characters to lowercase. Specialized functions or regular expressions were likely used to strip punctuation and special characters from the dataset to ensure a clean vocabulary.
-
-2. Tokenization and Filtering
-
-The nltk library was utilized to split text into tokens. Using stopwords.words('english'), the dataset was filtered to remove common English words, leaving behind only the contextually significant terms.
-
-3. Text Normalization
-
-The code demonstrated the reduction of words to their root forms. Stemmers (like PorterStemmer) or Lemmatizers (like WordNetLemmatizer) were applied to ensure that different grammatical forms of the same word were grouped together during frequency analysis.
-
-**Applications of NLP**
-
-- Sentiment Analysis: Determining whether a product review is positive or negative.
-
-- Spam Detection: Filtering emails based on the presence of specific keywords or patterns.
-
-- Chatbots and Virtual Assistants: Understanding and responding to user queries in natural language.
-
-- Language Translation: Converting text from one language to another using sequence-to-sequence models.
 
 **Conclusion**
 The experiment demonstrates that Text Preprocessing is a critical foundation for Natural Language Processing. By applying techniques such as tokenization, stopword removal, and normalization, we transform messy, unstructured text into a refined format. These steps are vital for any text-based analysis, from simple word counts to complex machine learning applications.
