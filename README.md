@@ -43,10 +43,15 @@ Both techniques are used to reduce a word to its root form:
     a. pos_tag() → Assigns grammar tags
 
    NN → Noun
-   VB → Verb
-   JJ → Adjective
-   
 
+   VBZ → Verb
+   
+   JJ → Adjective
+
+   NNP → Proper Noun
+
+   DT → Determiner
+   
 7. Frequency Distribution: It counts how often each word appears in the text.
 
     a.FreqDist() → Calculates frequency
