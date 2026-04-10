@@ -65,5 +65,5 @@ stopwords → for filtering common words
 
 wordnet → for lemmatization
 
-*Conclusion:*
+*CONCLUSION:*
 The experiment demonstrates that Text Preprocessing is a critical foundation for Natural Language Processing. By applying techniques such as tokenization, stopword removal, and normalization, we transform messy, unstructured text into a refined format. These steps are vital for any text-based analysis, from simple word counts to complex machine learning applications.
